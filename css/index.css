@@ -1,0 +1,174 @@
+*{ 
+margin: 0;
+box-sizing: border-box;
+
+font-family: 'Young Serif', serif;
+}
+ body{
+ background-image: url(../image/11.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 100vh;
+ 
+ 
+   }
+   
+  .container{
+  position: relative;
+  backdrop-filter: blur(30px);
+   width:300px;
+   height: 670px;
+   top: 53%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   box-shadow: 0 0 20px #8388C3;
+   border-radius: 30px;
+   }
+  
+  .container .login-box h1{
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   align-items: center;
+   color: #331C6A ;
+   font-size: 23px;
+ 
+    }
+   
+ .container .login-box .inp{
+  flex-direction: column;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: center;
+    } 
+ .container .login-box .inp input{
+  margin: 10px 0;
+  background: none;
+  border: 1px solid #fff;
+  font-size: 14px;
+  border-radius: 30px;
+  outline: none;
+ border-bottom: 1px solid #9C87CD;
+ padding: 9px;
+ width: 90%;
+ color: white;
+ 
+ }
+ .container .login-box .inp input:hover{
+  box-shadow: 0 0 20px #8388C3  ;
+  }
+ .container .login-box .inp input::placeholder{
+  font-size: 13px;
+  color: #36363F;
+  opacity: 0.7;
+}
+/*---------------Gebder-----------*/
+  .gender-title{
+  font-weight: 200;
+  color: #36363F;
+ font-size: 15px;
+  }
+  .gender-category{
+  display: flex;
+  margin: 15px 0;
+  color: #36363F;
+  
+  }
+ .gender-category label{
+
+  padding: 15px;}
+  
+  .language-categor{
+ display: flex;
+  color: white;
+  
+}
+  /*---------language---------*/
+
+  .language{
+font-weight: 200;
+    color: #191A1E;
+  }
+  .language-tetel{
+   color: #191A1E;
+   display: flex;
+    margin: 10px 0;
+  }
+    .language-tetel label{
+      
+      padding: 10px;
+      
+      
+    }
+
+    
+     /*------country-------*/
+
+   
+
+  .column .select-box select{
+   
+   outline: none;
+   border: none;
+   font-size: 20px;
+   border-radius: 10px;
+   border: 1px solid #442C7A;
+   background:linear-gradient(to left,#9C8DB2 ,#7C61A3);
+  text-align: center;
+  width: 120%;
+  color: #36363F;
+  
+   
+  }
+ .select-box{
+   margin-right: 30px;
+ }
+  .column .select-box select:hover{
+    box-shadow: 0 0 39px #8388C3  ;
+  }
+  
+
+/*-----------btn----------*/
+
+  .container .login-box .btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  .container .login-box .btn button{
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  height: 30px;
+  color: #220854;
+ font-size: 14px;
+ cursor: pointer;
+  transition: 0.4s;
+background:linear-gradient(to left,#A68AE7 ,#442C7A);
+  }
+ .container .login-box .btn button:hover {
+ transform: scale(1.1);
+  width: 70%;
+  box-shadow: 0 0 30px #8388C3;
+   border-radius: 10px;
+  }
+  .container .login-box .text {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 20px 0;
+ }
+ .container .login-box .text span{
+ color: #fff;
+  margin: 10px 0;
+ opacity: 0,9;
+  }
+  .container .login-box .text strong{
+   color: #0C0C0D; }
+  .container .login-box .text strong a{
+    color: #402A73;
+    text-decoration: none; }
+ 

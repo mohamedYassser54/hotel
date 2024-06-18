@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: "poppins", sans-serif;
+ 
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: Url( ../image/df4e.jpg );
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+  
+}
+.container{
+  position: relative;
+  background-image: url(../image/df4e.jpg);
+  padding: 25px;
+  border-radius: 30px;
+  max-width:370px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.logo img{
+ width: 100px;
+ margin-right: 10px;
+}
+
+
+.logo h5{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+header .chip{
+width: 60px;  
+margin-right: 5px;
+}
+header, .logo{
+display: flex;
+ align-items: center;
+ justify-content: space-between;
+  
+} 
+
+ .inp{
+
+flex-direction: column;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.inp input{
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 6px;
+  padding:8px 0 ;
+  width: 90%;
+  color: #fff;
+}
+ .inp input::placeholder{
+  color: #fff;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+  .btn{
+
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn button{
+ width: 30%;
+ height: 30px;
+  border-radius: 10px;
+  border: none;
+background:linear-gradient(to left,#B7C39B,#4D553B);
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn button:hover{
+ transform: scale(1.1);
+
+}

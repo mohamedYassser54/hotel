@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet"href="css/index.css">
+   <!----font--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  
+<link rel="icon" href="image/iconw.png">
+
+</head>
+  <title>Hotels</title>
+</head>
+<body>
+<div class="container">
+
+ <div class="login-box">
+  <h1>Sign Up</h1> 
+  <form action="http://localhost/php_pro/project4/php/index.php" method="POST" autocomplete="off">
+  <div class="inp">
+ <input type="text"name="name" placeholder=" Name" required>
+  <input type="email"name="email" placeholder="Email" required>
+  <input type="password"name="password" placeholder="password" required>
+     <!------------Gender-------------->
+ <div class="gender-details-box">
+  <span class="gender-title" >  Gender
+   </span>
+ <div class="gender-category">
+ <input type="radio"value="male"name="gender" id="male"required>
+  <label for="male">Male</label>
+ 
+ <input type="radio"value="female"name="gender" id="female"required>
+ <label for="female">Female</label>
+ 
+  <input type="radio"value="other"name="gender" id="other"required>
+ <label for="other">Other</label>
+ 
+  </div>
+ 
+ 
+ </div>
+ 
+  <input type="number"name="age" placeholder="Age" required>  
+
+
+<!-------------language-------------->
+ <span class="language" > language </span>
+ <div class="language-tetel">
+ <input type="checkbox" value="Arabic" name="lang[]" id="Arabic">
+  <label for="Arabic">Arabic</label>
+ 
+ <input type="checkbox" value="English"  name="lang[]" id="English">
+ <label for="English">English</label>
+
+ <input type="checkbox" value="Franch" name="lang[]" id="French">
+  <label for="French">Franch</label>
+
+ </div>
+
+ <!-------------country-------------->
+  
+  <div class="column">
+   <div class="select-box">
+     
+     <select class="option"name="country" required >
+        
+ <option hidden selected > select country</option>
+       <option value="Egypt" >Egypt</option>
+       <option value="Morocco" >Morocco</option>
+       <option value="Türkiye" >Türkiye</option>
+       <option value="France" >France</option>
+       <option value="Albania" >Albania</option>
+      <option value="Maldives" >Maldives</option>
+   <option value="Lebanon" >Lebanon</option>
+  </select>
+   </div>
+  </div>
+  
+
+  </div>
+  <!-------------btn-------------->
+  <div class="btn" > 
+ <button type="submit"name="submit">Register</button>
+  
+   </div>
+  <div class="text">
+   <span> Already have an account? </span>
+
+ 
+  <strong> <a href="html/signin.html">Sign in</a> Here</strong>
+
+      </div>
+    
+   </form>
+   </div>
+    
+  </div>
+</body>
+
+</html>

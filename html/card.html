@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="../css/card.css">
+     
+     <link rel="icon" href="../image/iconw.png">
+  <title>Hotels</title>
+</head>
+
+<body>
+<div class="container">
+ <header>
+  <span class="logo">
+       <img src="../image/eview.png" alt="">
+          
+  </span>
+   <img srcset="../image/ew.png" src="" alt=""class="chip">
+ </header> 
+  <!------>
+     <form action="http://localhost/php_pro/project4/php/card.php" method="post" autocomplete="off">
+       <div class="inp">
+       
+     
+       <input type="text"name="name"placeholder = " Name" required>
+     
+     <input type="text"name="cardnumber"placeholder="Card Number" required data-mask="0000 0000 0000 0000">
+       <input type="number"name="cvv"placeholder="CVV" required data-mask="000">
+        
+            <input type="text"name="date"placeholder = "Expiry Date" required data-mask="00 / 00">
+     
+ </div>
+      <div class="btn"  > 
+      <button type="submit" name="submit">Send</button>
+      
+      </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </form> 
+  <!----->
+</div>
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</body>
+
+</html>
